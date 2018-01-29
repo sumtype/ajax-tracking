@@ -34,4 +34,4 @@ function callWhenReadyToGo(callback) {
   }, window._AjaxTracking.XMLHttpRequestTrackingCheckFrequency);
 }
 
-callWhenReadyToGo(function() { console.log('Loading complete.') })
+callWhenReadyToGo(function() { console.log('Loading complete.') });
